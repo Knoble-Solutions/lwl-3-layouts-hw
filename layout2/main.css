@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightgray;
+}
+
+header,
+footer {
+    height: 100px;
+    width: 100%;
+    border: solid 3px black;
+    clear: both;
+}
+
+section {
+    border: solid 3px black;
+    float: left;
+}
+
+.section-one {
+    height: 200px;
+    width: 100%;
+}
+.section-two{
+    height: 350px;
+    width: 35%;
+}
+.section-three {
+    height: 350px;
+    width: 65%;
+}
