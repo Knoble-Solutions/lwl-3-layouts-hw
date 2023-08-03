@@ -26,3 +26,19 @@ section {
 .section-two{
     width: 40%;
 }
+
+
+/*
+Media Queries-------------
+*/
+
+@media all and (max-width:768px){
+    .section-one {
+        width: 100%;
+        display: clear;
+    }
+    .section-two {
+        width: 100%;
+        display: clear;
+    }
+}

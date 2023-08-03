@@ -27,46 +27,27 @@ footer {
     float: left;
 }
 
+/*
+Media Queries-------------
+*/
+
+@media all and (max-width:768px){
+    .section-one {
+        width: 100%;
+        display: clear;
+    }
+    .section-two {
+        width: 50%;
+        display: clear;
+    }
+}
+
 @media all and (max-width:425px){
     .section-one {
         width: 100%;
-        display: clear;
-    }
-    .section-two {
-        width: 50%;
-        display: clear;
-    }
-}
-
-@media all and (max-width:320px){
-    .section-one {
-        width: 100%;
-        display: clear;
+        
     }
     .section-two {
         width: 100%;
-        display: clear;
-    }
-}
-
-@media all and (min-width:768px){
-    .section-one {
-        width: 100%;
-        display: clear;
-    }
-    .section-two {
-        width: 50%;
-        display: clear;
-    }
-
-    @media all and (max-width:425px){
-        .section-one {
-            width: 100%;
-            display: clear;
-        }
-        .section-two {
-            width: 50%;
-            display: clear;
-        }
     }
 }
